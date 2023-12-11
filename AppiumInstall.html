@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appium Installation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <style>
+        .container{
+            display: grid;
+            grid-template-rows: 5% 95%;
+            grid-template-columns: .05fr .95fr ;
+        }
+
+        .white{
+            background-color: white;
+        }
+
+        .black{
+            background-color:  white;
+        }
+
+        .adb1 {
+    width:  600px;
+    height: fit-content;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 3px 3px 0px 0px;
+    padding: 5px 10px 0px 10px;
+    margin: 10px;
+    margin-bottom: 0%;
+  }
+
+  .adb3 {
+    width:  445px;
+    height: fit-content;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 3px 3px 0px 0px;
+    padding: 5px 10px 0px 10px;
+    margin: 10px;
+    margin-bottom: 0%;
+  }
+  .adb2 {
+    width:  600px;
+    height: fit-content;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 0px 0px 3px 3px;
+    padding: 10px 10px 5px 10px;
+    margin: 10px;
+    margin-top: 0%;
+  }
+  .adb4 {
+    width:  445px;
+    height: fit-content;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 0px 0px 3px 3px;
+    padding: 10px 10px 5px 10px;
+    margin: 10px;
+    margin-top: 0%;
+  }
+
+  
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Fixed navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./InstallationSetup.html">Installation and Setup</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <div class="white">
+            <div class="d-flex flex-column flex-shrink-0 p-3 bg-body" style="width: 200px;">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                  <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                  <span class="fs-4">Sidebar</span>
+                </a>
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto">
+                  <!-- <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+                      Home
+                    </a>
+                  </li> -->
+                  <li>
+                    <a href="#Appiuminstallation" class="nav-link link-body-emphasis">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+                      Appium Setup
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#AppiumServer" class="nav-link link-body-emphasis">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+                      Appium Server
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-body-emphasis">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+                      Products
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-body-emphasis">
+                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                      Customers
+                    </a>
+                  </li>
+                </ul>
+                <hr>
+                <div class="dropdown">
+                  <a href="#" class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                    <strong>mdo</strong>
+                  </a>
+                  <ul class="dropdown-menu text-small shadow">
+                    <li><a class="dropdown-item" href="#">New project...</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                  </ul>
+                </div>
+              </div>    
+        </div>
+
+
+        <div class="black">
+            
+            <div>
+                <h1 class="text-body-emphasis">Get started with Bootstrap</h1>
+                
+            </div>
+            <div><h1 id="Appiuminstallation" class="text-danger">Appium Installation</h1></div>
+            <div><p class="lead">Installing Appium is as easy as running a single NPM command:</p></div>
+
+            <div>
+            <p class="adb1"> Microsoft Windows [Version 10.0.22621.2428]<br>
+                (c) Microsoft Corporation. All rights reserved.</p>
+            <p class="adb2">C:\Users\newky>npm install -g appium|</p></div>
+
+            
+
+            <div><p class="lead mb-4">This command installs Appium globally on your system, <br> so that you can access it from the command line simply by running the appium command.<br> Go ahead and run it now:</p></div>
+            <div><p class="adb1"> Microsoft Windows [Version 10.0.22621.2428]<br>
+                (c) Microsoft Corporation. All rights reserved.</p>
+            <p id="AppiumServer" class="adb2">C:\Users\newky>appium|</p></div>
+            <div><p class="lead mb-4">You should see some output that starts with a line like this:</p></div>
+            <div><p class="adb1"> Microsoft Windows [Version 10.0.22621.2428]<br>
+                (c) Microsoft Corporation. All rights reserved.</p>
+                <p class="adb1" style="margin-bottom: 0px;  margin-top: 0px;" >C:\Users\newky>appium</p>    
+            <p  class="adb2" style="padding-top: 0px;"><span class="adbspan">[Appium]</span> Welcome to Appium v1.22.3</p></div>     
+            <div><p class="lead mb-1">That's it! If you get this kind of output, the Appium server is up and running.<br> Go ahead and quit it (CTRL-C) and move on to the next step, where we'll install a driver for automating Android apps.</p></div>    
+            <div><p class="col-lg-10 fs-4">The above command is used both for checking the Appium Version also to start the Appium Server.</p></div>    
+            
+            <div class="table-responsive-sm">
+              <table id="appiuminstallation2" class="table table-hover table-bordered border-danger border-rounded">
+                <tr class="bg-dark text-light" >
+                    <th class="col-lg-10 fs-4 text-center ">Appium Version 1</th>
+                    <th class="col-lg-10 fs-4 text-center ">Appium Version 2</th>
+                </tr>
+
+                <tr >
+                    <td >
+                        <div>
+                            <p class="adb3"> Microsoft Windows [Version 10.0.22621.2428]<br>
+                                                (c) Microsoft Corporation. All rights reserved.</p>
+                            <p class="adb3" style="margin-bottom: 0px;  margin-top: 0px;" >C:\Users\newky>appium</p>    
+            <p class="adb4" style="padding-top: 0px;"><span class="adbspan">[Appium]</span> Welcome to Appium v1.22.3</p></div>
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div>
+                            <p class="adb3"> Microsoft Windows [Version 10.0.22621.2428]<br>
+                                                (c) Microsoft Corporation. All rights reserved.</p>
+                                                <p class="adb3" style="margin-bottom: 0px;  margin-top: 0px;" >C:\Users\newky>appium</p>    
+                                                <p class="adb4" style="padding-top: 0px;"><span class="adbspan">[Appium]</span> Welcome to Appium v2.0.0</p></div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr >
+                    <td class="align-middle" rowspan="2" style="border-radius: 0px 0px 0px 2px ;">
+                        <p><strong class="text-danger">When you installed Appium Version 1x, all available drivers would be <br>installed at the same time as the main Appium server.</strong></p> 
+                    </td>
+                    <td>
+                        <p><strong class="text-danger">Installing Appium 2.0 (e.g., by npm install -g appium <br><kbd>or</kbd><br> npm install --location=global appium),<br> will install the Appium server only, but no drivers.<br> To install drivers, use the following command</strong></p>
+                        <div>
+                            <p class="adb3"> Microsoft Windows [Version 10.0.22621.2428]<br>
+                                                (c) Microsoft Corporation. All rights reserved.</p>
+                                                <p class="adb3" style="margin-bottom: 0px;  margin-top: 0px;" >C:\Users\newky>appium driver install uiautomator2</p>    
+                                                
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    
+                    <td style="border-radius: 0px 0px 20px 0px ;">
+                        <p ><strong class="text-danger">Installing UiAutomator2 drivers</strong></p>
+                        <div>
+                            <p class="adb3"> Microsoft Windows [Version 10.0.22621.2428]<br>
+                                                (c) Microsoft Corporation. All rights reserved.</p>
+                                                <p class="adb3" style="margin-bottom: 0px;  margin-top: 0px; font-size: 1.1rem;" >C:\Users\newky>Attempting to find and install driver 'uiautomator2'<br>
+                                                    ✔ Installing 'uiautomator2' using NPM install spec 'appium-uiautomator2-driver'<br>
+                                                    Driver uiautomator2@2.0.5 successfully installed<br>
+                                                    - automationName: UiAutomator2<br>
+                                                    - platformNames: ["Android"]
+                                                    </p>    
+                                                
+                        </div>
+                    </td>
+                </tr>
+            </table>
+             
+            </div>   
+                
+
+            
+            <div><p class="col-lg-10 fs-4">Installation is of Appium is completed.</p></div>    
+      
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    
+    </script>
+</body>
+</html>
